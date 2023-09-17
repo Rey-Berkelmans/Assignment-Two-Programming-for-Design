@@ -3,6 +3,9 @@ function setup() {
 }
 
 function draw() {
+
+  // Attached below is code for the snowman
+  
   background(0,0,255);
   ellipse(200,400,450,100)
     ellipse(200,320,100,100)
