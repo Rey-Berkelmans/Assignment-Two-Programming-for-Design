@@ -10,6 +10,8 @@ function setup() {
 function draw() {
   background(0,0,0);
 
+  // Attached below is the code for the snow/circles
+
   for (let i = 0; i < circleY.length; i++) {
     let circleX = width * i / circleY.length;
     circle(circleX, circleY[i], 5);
@@ -19,6 +21,9 @@ function draw() {
     if (circleY[i] > height) {
       circleY[i] = 0;
     }
+
+    // Attached below is the code for the snowman
+    
      ellipse(200,400,450,100)
     ellipse(200,320,100,100)
   ellipse(200,260,80,80)
